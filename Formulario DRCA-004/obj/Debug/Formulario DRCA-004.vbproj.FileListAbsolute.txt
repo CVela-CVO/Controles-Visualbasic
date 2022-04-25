@@ -10,3 +10,18 @@ C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Formulario
 C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Formulario DRCA-004\obj\Debug\Formulario DRCA-004.xml
 C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Formulario DRCA-004\obj\Debug\Formulario DRCA-004.pdb
 C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Formulario DRCA-004\obj\Debug\Formulario_DRCA_004.FormReporte.resources
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\bin\Debug\Formulario DRCA-004.exe.config
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario DRCA-004.exe
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario DRCA-004.xml
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario DRCA-004.pdb
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\bin\Debug\Formulario DRCA-004.exe
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\bin\Debug\Formulario DRCA-004.pdb
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\bin\Debug\Formulario DRCA-004.xml
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario DRCA-004.vbprojResolveAssemblyReference.cache
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario_DRCA_004.Form1.resources
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario_DRCA_004.FormReporte.resources
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario_DRCA_004.Resources.resources
+C:\Users\gameg\Desktop\tarea\Progra\Programación\Formulario DRCA-004\Controles-Visualbasic\Formulario DRCA-004\obj\Debug\Formulario DRCA-004.vbproj.GenerateResource.Cache

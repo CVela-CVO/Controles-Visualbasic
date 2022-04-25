@@ -101,6 +101,8 @@ Partial Class Form1
         Me.Label34 = New System.Windows.Forms.Label()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.TextBox24 = New System.Windows.Forms.TextBox()
+        Me.Label36 = New System.Windows.Forms.Label()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.checkdomingo = New System.Windows.Forms.CheckBox()
         Me.checksabado = New System.Windows.Forms.CheckBox()
@@ -128,11 +130,10 @@ Partial Class Form1
         Me.Label35 = New System.Windows.Forms.Label()
         Me.TextBox22 = New System.Windows.Forms.TextBox()
         Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
         Me.TabPage8 = New System.Windows.Forms.TabPage()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox25 = New System.Windows.Forms.TextBox()
+        Me.DirectoryEntry1 = New System.DirectoryServices.DirectoryEntry()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -176,7 +177,7 @@ Partial Class Form1
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(675, 208)
+        Me.TabPage1.Size = New System.Drawing.Size(755, 208)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Tipificación de Trámite"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -907,6 +908,23 @@ Partial Class Form1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Periodo de Producción:"
         '
+        'TextBox24
+        '
+        Me.TextBox24.Location = New System.Drawing.Point(600, 37)
+        Me.TextBox24.Multiline = True
+        Me.TextBox24.Name = "TextBox24"
+        Me.TextBox24.Size = New System.Drawing.Size(133, 104)
+        Me.TextBox24.TabIndex = 15
+        '
+        'Label36
+        '
+        Me.Label36.AutoSize = True
+        Me.Label36.Location = New System.Drawing.Point(600, 20)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(81, 13)
+        Me.Label36.TabIndex = 14
+        Me.Label36.Text = "Observaciones:"
+        '
         'GroupBox5
         '
         Me.GroupBox5.Controls.Add(Me.checkdomingo)
@@ -1190,23 +1208,6 @@ Partial Class Form1
         Me.Label33.Text = "Nombre del Responsable de la Producción o empaque o Contacto directo del responsa" &
     "ble de la planta:"
         '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Location = New System.Drawing.Point(600, 20)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(81, 13)
-        Me.Label36.TabIndex = 14
-        Me.Label36.Text = "Observaciones:"
-        '
-        'TextBox24
-        '
-        Me.TextBox24.Location = New System.Drawing.Point(600, 37)
-        Me.TextBox24.Multiline = True
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(133, 104)
-        Me.TextBox24.TabIndex = 15
-        '
         'TabPage8
         '
         Me.TabPage8.Controls.Add(Me.Button1)
@@ -1219,14 +1220,6 @@ Partial Class Form1
         Me.TabPage8.Text = "Observaciones de Uso Oficial"
         Me.TabPage8.UseVisualStyleBackColor = True
         '
-        'TextBox25
-        '
-        Me.TextBox25.Location = New System.Drawing.Point(7, 7)
-        Me.TextBox25.Multiline = True
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(742, 167)
-        Me.TextBox25.TabIndex = 0
-        '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(595, 181)
@@ -1235,6 +1228,14 @@ Partial Class Form1
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "Imprimir"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'TextBox25
+        '
+        Me.TextBox25.Location = New System.Drawing.Point(7, 7)
+        Me.TextBox25.Multiline = True
+        Me.TextBox25.Name = "TextBox25"
+        Me.TextBox25.Size = New System.Drawing.Size(742, 167)
+        Me.TextBox25.TabIndex = 0
         '
         'Form1
         '
@@ -1388,4 +1389,5 @@ Partial Class Form1
     Friend WithEvents TabPage8 As TabPage
     Friend WithEvents Button1 As Button
     Friend WithEvents TextBox25 As TextBox
+    Friend WithEvents DirectoryEntry1 As DirectoryServices.DirectoryEntry
 End Class
